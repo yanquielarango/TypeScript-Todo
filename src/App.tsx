@@ -2,7 +2,6 @@ import AddTodo from './components/AddTodo';
 import Todos from './components/Todos';
 import { useTodoContext} from './context/todoContext'
 
-import './style.css';
 
 export const App = () => {
   const {todos} = useTodoContext()

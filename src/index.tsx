@@ -7,9 +7,9 @@ import TodoContextProvider from './context/todoContext';
 const root = createRoot(document.getElementById('app'));
 
 root.render(
-  <StrictMode>
+  
     <TodoContextProvider>
-    <App  />
+      <App  />
     </TodoContextProvider>
-  </StrictMode>
+  
 );
